@@ -8,9 +8,11 @@
   <li>Autoloading: PSR-4 provides a standardized way to autoload PHP classes, making it easier to manage dependencies and avoid conflicts between class names.</li>
 </ol>
 
+#### how to use psr-4
 
 - create a composer.json file in the project directory
 - put the following code in the composer.json file
+- 
 ##### composer.json
 ```
 {
