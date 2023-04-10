@@ -3,8 +3,8 @@
 
 ### psr-4 autoloading
 
-composer.json
-------------
+    composer.json
+    ------------
 ```
 {
   "autoload": {
