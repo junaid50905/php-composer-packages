@@ -36,3 +36,34 @@
     }
 
 ```
+- From where we want to use the class, we have to include the autoload.php file from vendor and use class like the following
+```
+<?php
+
+//classes
+include_once 'vendor/autoload.php';
+use App\Students;
+use App\Teachers;
+
+
+
+$std = new Students;
+echo $std->show_students();
+echo "<br>";
+
+
+?>
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
