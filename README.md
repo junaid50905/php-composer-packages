@@ -23,4 +23,16 @@
 
 ```
 - write this command in the project directory terminal: composer dump-autoload . Then we will get a new folder named vendor. In this vendor folder we put all the outside file like bootstrap.
-- 
+- write namespace App to class like the following
+```
+<?php
+    namespace App;
+
+    class Students{
+        public function show_students()
+        {
+            echo "show all students data";
+        }
+    }
+
+```
